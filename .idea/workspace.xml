@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb5bfb5-6f03-4c08-a920-a89658f3feea" name="Default Changelist" comment="" />
+    <list default="true" id="1cb5bfb5-6f03-4c08-a920-a89658f3feea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PCA_and_Kmeans_on_the_modified_final_df.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PCA_and_Kmeans_on_the_modified_final_df.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
