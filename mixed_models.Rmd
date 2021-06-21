@@ -1,0 +1,8 @@
+---
+title: "mixed_models"
+output: pdf_document
+---
+
+```{r}
+library(lmerTest) #lmer
+```
