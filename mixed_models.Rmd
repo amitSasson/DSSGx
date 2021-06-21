@@ -17,15 +17,15 @@ df$ags5 <- factor(df$ags5)
 df$cluster <- factor(df$cluster)
 ```
 
-#without clutster/kreis
+#### without clutster/kreis
 ```{r}
 fit1 <- lmer(mean_unemployment_rate ~ median_income + total_area + X2019_population + (1 | ags2), df)
 summary(fit1)
 ```
 
-#with clutster
+#### with clutster
 ```{r}
-fit2 <- lmer(mean_unemployment_rate ~ median_income + cluster + X2019_population + (1 | ags2), df)
+fit2 <- lmer(mean_unemployment_rate ~ cluster + median_income  + total_area + X2019_population + (1 | ags2), df)
 summary(fit2)
 coef(fit2)
 ```
@@ -51,7 +51,6 @@ df <- df %>%
         mutate(date = as.Date(as.character(date)))
 
 head(df)
-
 ```
 
 #### plot 
@@ -67,17 +66,27 @@ ggplot(aes(x = date, y = mean_unemployment_rate, color = cluster)) +
   geom_line() 
 
 df %>% 
-  group_by(ags2, date) %>% 
+  group_by(bundesland, date) %>% 
   summarise(mean_unemployment_rate = sum(unemployment_rate %*% X2019_population)/sum(X2019_population)) %>% 
-ggplot(aes(x = date, y = mean_unemployment_rate, color = ags2)) + 
+ggplot(aes(x = date, y = mean_unemployment_rate, color = bundesland)) + 
   geom_point()  + 
   geom_line() 
+
+df %>% 
+ggplot(aes(x = date, y = unemployment_rate, color = cluster, group = ags5)) + 
+  geom_point(alpha = 0.5)  + 
+  geom_line(alpha = 0.5) +
+  theme(legend.position = "none")
 ```
 
 #### LMM 
 ```{r}
 fit4 <- lmer(unemployment_rate ~ date + cluster + median_income + X2019_population + (1 | ags2) + (1 | ags5), df)
 summary(fit4)
+
+fit5 <- lmer(unemployment_rate ~ . + (1 | ags2) + (1 | ags5), df)
+
+# step(fit5, keep.effs = "Assessor")
 ```
 
 #### TIme series 
