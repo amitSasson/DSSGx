@@ -6,6 +6,7 @@ output: pdf_document
 ```{r}
 library(lmerTest) 
 library(tidyverse)
+library(modelsummary)
 ```
 
 ## No time element 
@@ -21,6 +22,8 @@ df$cluster <- factor(df$cluster)
 ```{r}
 fit1 <- lmer(mean_unemployment_rate ~ median_income + total_area + X2019_population + (1 | ags2), df)
 summary(fit1)
+get_gof(fit1)
+
 ```
 
 #### with clutster
@@ -28,6 +31,7 @@ summary(fit1)
 fit2 <- lmer(mean_unemployment_rate ~ cluster + median_income  + total_area + X2019_population + (1 | ags2), df)
 summary(fit2)
 coef(fit2)
+get_gof(fit2)
 ```
 
 
@@ -83,9 +87,9 @@ ggplot(aes(x = date, y = unemployment_rate, color = cluster, group = ags5)) +
 ```{r}
 fit4 <- lmer(unemployment_rate ~ date + cluster + median_income + X2019_population + (1 | ags2) + (1 | ags5), df)
 summary(fit4)
+get_gof(fit4)
 
 fit5 <- lmer(unemployment_rate ~ . + (1 | ags2) + (1 | ags5), df)
-
 # step(fit5, keep.effs = "Assessor")
 ```
 
