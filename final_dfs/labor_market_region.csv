@@ -1,0 +1,402 @@
+ags5,labor_market_region_number,labor_market_region_name
+1001,1,Flensburg
+1059,1,Flensburg
+1002,2,Kiel
+1057,2,Kiel
+1058,2,Kiel
+1003,3,Lübeck
+1055,3,Lübeck
+1004,4,Neumünster
+1051,5,Dithmarschen
+1054,6,Nordfriesland
+1060,7,Segeberg
+1061,8,Steinburg
+1053,9,Herzogtum Lauenburg
+1056,10,Hamburg
+1062,10,Hamburg
+2000,10,Hamburg
+3353,10,Hamburg
+3355,10,Hamburg
+3101,11,Wolfsburg
+3102,11,Wolfsburg
+3103,11,Wolfsburg
+3151,11,Wolfsburg
+3154,11,Wolfsburg
+3157,11,Wolfsburg
+3158,11,Wolfsburg
+3153,12,Goslar
+3155,13,Göttingen
+3159,13,Göttingen
+16061,13,Göttingen
+3241,14,Hannover
+3254,14,Hannover
+3257,14,Hannover
+3351,14,Hannover
+3251,15,Diepholz
+3252,16,Hameln-Pyrmont
+3255,17,Holzminden
+3256,18,Nienburg (Weser)
+3354,19,Lüchow-Dannenberg
+3357,20,Rotenburg (Wümme)
+3358,21,Heidekreis
+3359,22,Stade
+3360,23,Uelzen
+3361,24,Verden
+3402,25,Emden
+3452,25,Emden
+3403,26,Oldenburg (Oldenburg)
+3451,26,Oldenburg (Oldenburg)
+3458,26,Oldenburg (Oldenburg)
+3404,27,Osnabrück
+3459,27,Osnabrück
+3405,28,Wilhelmshaven
+3455,28,Wilhelmshaven
+3453,29,Cloppenburg
+3454,30,Emsland
+3456,30,Emsland
+3457,31,Leer
+3460,32,Vechta
+3461,33,Wesermarsch
+3462,34,Wittmund
+3356,35,Bremen
+3401,35,Bremen
+4011,35,Bremen
+3352,36,Bremerhaven
+4012,36,Bremerhaven
+5111,37,Düsseldorf
+5114,37,Düsseldorf
+5158,37,Düsseldorf
+5162,37,Düsseldorf
+5112,38,Duisburg
+5119,38,Duisburg
+5170,38,Duisburg
+5113,39,Essen
+5117,39,Essen
+5512,39,Essen
+5513,39,Essen
+5116,40,Mönchengladbach
+5166,40,Mönchengladbach
+5120,41,Wuppertal
+5124,41,Wuppertal
+5122,42,Solingen
+5154,43,Kleve
+5314,44,Köln
+5315,44,Köln
+5316,44,Köln
+5362,44,Köln
+5366,44,Köln
+5378,44,Köln
+5382,44,Köln
+5334,45,Aachen 
+5358,45,Aachen 
+5370,45,Aachen 
+5374,46,Oberbergischer Kreis
+5515,47,"Münster, Kreisfreie Stadt"
+5558,47,"Münster, Kreisfreie Stadt"
+5566,47,"Münster, Kreisfreie Stadt"
+5570,47,"Münster, Kreisfreie Stadt"
+5554,48,Borken
+5562,49,Recklinghausen
+5711,50,Bielefeld
+5758,50,Bielefeld
+5754,51,Gütersloh
+5766,52,Lippe
+5770,53,Minden-Lübbecke
+5762,54,Paderborn
+5774,54,Paderborn
+5911,55,Bochum
+5916,55,Bochum
+5913,56,Dortmund
+5915,56,Dortmund
+5978,56,Dortmund
+5914,57,Hagen
+5954,57,Hagen
+5958,58,Hochsauerlandkreis
+5962,59,Märkischer Kreis
+5966,60,Olpe
+5970,61,Siegen-Wittgenstein
+5974,62,Soest
+6411,63,Frankfurt am Main
+6412,63,Frankfurt am Main
+6413,63,Frankfurt am Main
+6432,63,Frankfurt am Main
+6433,63,Frankfurt am Main
+6434,63,Frankfurt am Main
+6435,63,Frankfurt am Main
+6436,63,Frankfurt am Main
+6438,63,Frankfurt am Main
+6440,63,Frankfurt am Main
+6414,64,Wiesbaden
+6439,64,Wiesbaden
+7315,64,Wiesbaden
+7339,64,Wiesbaden
+6437,65,Odenwaldkreis
+6531,66,Gießen
+6532,66,Gießen
+6533,67,Limburg-Weilburg
+6534,68,Marburg-Biedenkopf
+6535,69,Vogelsbergkreis
+6611,70,Kassel
+6633,70,Kassel
+6634,70,Kassel
+6631,71,Fulda
+6632,72,Hersfeld-Rotenburg
+6635,73,Waldeck-Frankenberg
+6636,74,Werra-Meißner-Kreis
+7111,75,Koblenz
+7137,75,Koblenz
+7141,75,Koblenz
+7131,76,Ahrweiler
+7132,77,Altenkirchen (Westerwald)
+7133,78,Bad Kreuznach
+7134,79,Birkenfeld
+7135,80,Cochem-Zell
+7138,81,Neuwied
+7140,82,Rhein-Hunsrück-Kreis
+7143,83,Westerwaldkreis
+7211,84,Trier
+7235,84,Trier
+7231,85,Bernkastel-Wittlich
+7232,86,Eifelkreis Bitburg-Prüm
+7233,87,Vulkaneifel
+7312,88,Kaiserslautern
+7335,88,Kaiserslautern
+7336,88,Kaiserslautern
+7317,89,Pirmasens
+7340,89,Pirmasens
+7319,90,Worms
+7320,91,Zweibrücken
+7331,92,Alzey-Worms
+7333,93,Donnersbergkreis
+8111,94,Stuttgart
+8115,94,Stuttgart
+8116,94,Stuttgart
+8118,94,Stuttgart
+8119,94,Stuttgart
+8117,95,Göppingen
+8121,96,Heilbronn
+8125,96,Heilbronn
+8126,97,Hohenlohekreis
+8127,98,Schwäbisch Hall
+8128,99,Main-Tauber-Kreis
+8135,100,Heidenheim
+8136,101,Ostalbkreis
+8211,102,Baden-Baden
+8216,102,Baden-Baden
+7313,103,Karlsruhe
+7334,103,Karlsruhe
+7337,103,Karlsruhe
+8212,103,Karlsruhe
+8215,103,Karlsruhe
+6431,104,Mannheim
+7311,104,Mannheim
+7314,104,Mannheim
+7316,104,Mannheim
+7318,104,Mannheim
+7332,104,Mannheim
+7338,104,Mannheim
+8221,104,Mannheim
+8222,104,Mannheim
+8226,104,Mannheim
+8225,105,Neckar-Odenwald-Kreis
+8231,106,Pforzheim
+8236,106,Pforzheim
+8235,107,Calw
+8237,108,Freudenstadt
+8311,109,Freiburg im Breisgau
+8315,109,Freiburg im Breisgau
+8316,109,Freiburg im Breisgau
+8317,110,Ortenaukreis
+8325,111,Rottweil
+8326,112,Schwarzwald-Baar-Kreis
+8327,113,Tuttlingen
+8335,114,Konstanz
+8336,115,Lörrach
+8337,116,Waldshut
+8415,117,Reutlingen
+8416,117,Reutlingen
+8417,118,Zollernalbkreis
+8421,119,Ulm
+8425,119,Ulm
+9775,119,Ulm
+8426,120,Biberach
+8435,121,Bodenseekreis
+8436,122,Ravensburg
+9776,122,Ravensburg
+8437,123,Sigmaringen
+9161,124,Ingolstadt
+9176,124,Ingolstadt
+9185,124,Ingolstadt
+9186,124,Ingolstadt
+9162,125,München
+9173,125,München
+9174,125,München
+9177,125,München
+9178,125,München
+9179,125,München
+9184,125,München
+9188,125,München
+9163,126,Rosenheim
+9187,126,Rosenheim
+9171,127,Altötting
+9172,128,Berchtesgadener Land
+9175,129,Ebersberg
+9180,130,Garmisch-Partenkirchen
+9181,131,Landsberg am Lech
+9182,132,Miesbach
+9183,133,Mühldorf a.Inn
+9189,134,Traunstein
+9190,135,Weilheim-Schongau
+9261,136,Landshut
+9274,136,Landshut
+9262,137,Passau
+9275,137,Passau
+9263,138,Straubing
+9278,138,Straubing
+9271,139,Deggendorf
+9277,140,Rottal-Inn
+9276,141,Regen
+9272,142,Freyung-Grafenau
+9279,143,Dingolfing-Landau
+9361,144,Amberg
+9371,144,Amberg
+9273,145,Regensburg
+9362,145,Regensburg
+9375,145,Regensburg
+9376,145,Regensburg
+9363,146,Weiden i.d.OPf.
+9374,146,Weiden i.d.OPf.
+9372,147,Cham
+9373,148,Neumarkt i.d.OPf.
+9461,149,Bamberg
+9471,149,Bamberg
+9462,150,Bayreuth
+9472,150,Bayreuth
+9477,150,Bayreuth
+9463,151,Coburg
+9473,151,Coburg
+9464,152,Hof
+9475,152,Hof
+9476,153,Kronach
+9478,154,Lichtenfels
+9377,155,Wunsiedel i. Fichtelgebirge
+9479,155,Wunsiedel i. Fichtelgebirge
+9561,156,Ansbach
+9571,156,Ansbach
+9474,157,Nürnberg
+9562,157,Nürnberg
+9563,157,Nürnberg
+9564,157,Nürnberg
+9565,157,Nürnberg
+9572,157,Nürnberg
+9573,157,Nürnberg
+9574,157,Nürnberg
+9576,157,Nürnberg
+9575,158,Neustadt a.d.Aisch-Bad Windsheim
+9577,159,Weißenburg-Gunzenhausen
+9661,160,Aschaffenburg
+9671,160,Aschaffenburg
+9676,160,Aschaffenburg
+9662,161,Schweinfurt
+9672,161,Schweinfurt
+9674,161,Schweinfurt
+9678,161,Schweinfurt
+9663,162,Würzburg
+9675,162,Würzburg
+9677,162,Würzburg
+9679,162,Würzburg
+9673,163,Rhön-Grabfeld
+9761,164,Augsburg
+9771,164,Augsburg
+9772,164,Augsburg
+9762,165,Kaufbeuren
+9777,165,Kaufbeuren
+9763,166,Kempten (Allgäu)
+9780,166,Kempten (Allgäu)
+9764,167,Memmingen
+9778,167,Memmingen
+9773,168,Dillingen a.d.Donau
+9774,169,Günzburg
+9779,170,Donau-Ries
+10041,171,Saarbrücken
+10042,171,Saarbrücken
+10043,171,Saarbrücken
+10044,171,Saarbrücken
+10045,171,Saarbrücken
+10046,171,Saarbrücken
+11000,172,Berlin
+12051,173,Brandenburg an der Havel
+12052,174,Cottbus
+12071,174,Cottbus
+12053,175,Frankfurt (Oder)
+12067,175,Frankfurt (Oder)
+12054,176,Potsdam
+12069,176,Potsdam
+12060,177,Barnim
+12061,178,Dahme-Spreewald
+12062,179,"Elbe-Elster, Landkreis"
+12063,180,Havelland
+12064,181,Märkisch-Oderland
+12065,182,Oberhavel
+12068,183,Ostprignitz-Ruppin
+12066,184,Oberspreewald Lausitz
+12070,185,Prignitz
+12072,186,Teltow-Fläming
+12073,187,Uckermark
+13003,188,Rostock
+13072,188,
+13004,189,Schwerin
+13074,189,Schwerin
+13076,189,Schwerin
+13071,190,Mecklenburgische Seenplatte
+13073,191,Vorpommern-Rügen
+13075,192,Vorpommern-Greifswald
+14511,193,Chemnitz
+14521,193,Chemnitz
+14522,193,Chemnitz
+14523,194,Vogtlandkreis
+14524,195,Zwickau
+14612,196,Dresden
+14627,196,Dresden
+14628,196,Dresden
+14625,197,Bautzen
+14626,198,Görlitz
+14713,199,Leipzig
+14729,199,Leipzig
+14730,199,Leipzig
+15001,200,Dessau-Roßlau
+15002,201,Halle (Saale)
+15088,201,Halle (Saale)
+15003,202,Magdeburg
+15083,202,Magdeburg
+15086,202,Magdeburg
+15081,203,Altmarkkreis Salzwedel
+15082,204,Anhalt-Bitterfeld
+15084,205,Burgenlandkreis
+15085,206,Harz
+15087,207,Mansfeld-Südharz
+15089,208,Salzlandkreis
+15090,209,Stendal
+15091,210,Wittenberg
+16051,211,Erfurt
+16055,211,Erfurt
+16067,211,Erfurt
+16068,211,Erfurt
+16070,211,Erfurt
+16071,211,Erfurt
+16052,212,Gera
+16076,212,Gera
+16053,213,Jena
+16074,213,Jena
+16056,214,Eisenach
+16063,214,Eisenach
+16062,215,Nordhausen
+16064,216,Unstrut-Hainich-Kreis
+16065,217,Kyffhäuserkreis
+16054,218,Schmalkalden-Meiningen
+16066,218,Schmalkalden-Meiningen
+16069,219,Hildburghausen
+16072,220,Sonneberg
+16073,221,Saalfeld-Rudolstadt
+16075,222,Saale-Orla-Kreis
+16077,223,Altenburger Land
