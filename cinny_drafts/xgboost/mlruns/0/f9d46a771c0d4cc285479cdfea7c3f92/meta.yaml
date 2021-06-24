@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/cinny/GitHub/DSSGx/cinny_drafts/xgboost/mlruns/0/f9d46a771c0d4cc285479cdfea7c3f92/artifacts
+end_time: 1624546924085
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: f9d46a771c0d4cc285479cdfea7c3f92
+run_uuid: f9d46a771c0d4cc285479cdfea7c3f92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1624546922001
+status: 3
+tags: []
+user_id: cinny
