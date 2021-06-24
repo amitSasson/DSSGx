@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/cinny/GitHub/Map-Tool/notebooks/mlruns/0/c13cf3f3e714452381fe62cf92d65eeb/artifacts
+end_time: 1624532217935
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: c13cf3f3e714452381fe62cf92d65eeb
+run_uuid: c13cf3f3e714452381fe62cf92d65eeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1624532217510
+status: 3
+tags: []
+user_id: cinny
