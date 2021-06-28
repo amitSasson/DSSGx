@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb5bfb5-6f03-4c08-a920-a89658f3feea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/amitsasson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/amitsasson.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_join_final_df_with_dates_dfs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_join_final_df_with_dates_dfs.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mixed_models.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/mixed_models.Rmd" afterDir="false" />
-    </list>
+    <list default="true" id="1cb5bfb5-6f03-4c08-a920-a89658f3feea" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
