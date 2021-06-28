@@ -42,46 +42,58 @@ df <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/final_dfs/df_final_witho
 df %>% select(cluster) %>% table()
 df <- df %>% select(-data_index)
 labor <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/final_dfs/labor_market_by_date.csv")
-df <- df %>% left_join(labor, by = c("ags5" = "ags5", "ags2" = "ags2"))
-df$ags2 <- factor(df$ags2)
-df$ags5 <- factor(df$ags5)
-df$cluster <- factor(df$cluster)
+tmp <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/corona_data_sets/arbeitsmarktentwicklung.csv") %>% select(bundesland, ags5)
+
 
 df <- df %>% 
-        filter(variable == "unemployment_rate") %>% 
-        select(-variable) %>% 
-        rename(unemployment_rate = value) %>% 
-        mutate(date = as.Date(as.character(date)))
+  left_join(labor, by = c("ags5" = "ags5", "ags2" = "ags2")) %>% 
+  left_join(tmp, by = c("ags5" = "ags5"))
+df$ags2 <- factor(df$ags2)
+df$ags5 <- factor(df$ags5)
+df$bundesland <- factor(df$bundesland)
+df$cluster <- factor(df$cluster , levels=c(1,2,0), labels= c("Biggest two cities", "Middle-Big size cities", "Small cities and rural areas"))
+
+df <- df %>% 
+        rename(the_date = date) %>% 
+        mutate(the_date = as.Date(as.character(the_date)))
 
 head(df)
 ```
 
 #### plot 
 ```{r}
-ggplot(df, aes(x = date, y = unemployment_rate)) + 
+ggplot(df, aes(x = the_date, y = unemployment_rate)) + 
   geom_point() 
 
-df %>% 
-  group_by(cluster, date) %>% 
-  summarise(mean_unemployment_rate = sum(unemployment_rate %*% X2019_population)/sum(X2019_population)) %>% 
-ggplot(aes(x = date, y = mean_unemployment_rate, color = cluster)) + 
-  geom_point()  + 
-  geom_line() 
+
 
 df %>% 
-  group_by(bundesland, date) %>% 
+  group_by(cluster, the_date) %>% 
   summarise(mean_unemployment_rate = sum(unemployment_rate %*% X2019_population)/sum(X2019_population)) %>% 
-ggplot(aes(x = date, y = mean_unemployment_rate, color = bundesland)) + 
+ggplot(aes(x = the_date, y = mean_unemployment_rate, color = cluster)) + 
   geom_point()  + 
-  geom_line() 
+  geom_line()  +  
+  labs(x = "Date", y = "Unemployment rate", color = "Bundesland", title = "Unemployment rate by date for each cluster") +
+  scale_y_continuous(limits = c(2, 12), breaks = seq(2, 12, by = 2)) 
 
 df %>% 
-ggplot(aes(x = date, y = unemployment_rate, color = cluster, group = ags5)) + 
-  geom_point(alpha = 0.5)  + 
-  geom_line(alpha = 0.5) +
-  theme(legend.position = "none")
+  group_by(bundesland, the_date) %>% 
+  summarise(mean_unemployment_rate = sum(unemployment_rate %*% X2019_population)/sum(X2019_population)) %>% 
+ggplot(aes(x = the_date, y = mean_unemployment_rate, color = bundesland)) + 
+  geom_point()  + 
+  geom_line() +  
+  labs(x = "Date", y = "Unemployment rate", color = "Bundesland", title = "Unemployment rate by date for each bundesland") +
+  scale_y_continuous(limits = c(0, 18), breaks = seq(0, 18, by = 2)) -> p 
+
+df %>% 
+ggplot(aes(x = the_date, y = unemployment_rate, color = bundesland, group = ags5)) + 
+  geom_point()  + 
+  geom_line() + 
+  labs(x = "Date", y = "Unemployment rate", color = "Bundesland", title = "Unemployment rate by date for each kreis")  +
+  scale_y_continuous(limits = c(0, 18), breaks = seq(0, 18, by = 2)) -> q 
+
+ q+p+plot_layout(guides = 'collect')
 ```
-
 #### LMM 
 ```{r}
 fit4 <- lmer(unemployment_rate ~ date + cluster + median_income + X2019_population + (1 | ags2) + (1 | ags5), df)
