@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cb5bfb5-6f03-4c08-a920-a89658f3feea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PCA_and_Kmeans_on_the_modified_final_df.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PCA_and_Kmeans_on_the_modified_final_df.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/amitsasson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/amitsasson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prakhar_drafts/Hierarchical Model Experiments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Prakhar_drafts/Hierarchical Model Experiments.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amit_drafts/Prophet_no_walk_forward.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/Prophet_no_walk_forward.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amit_drafts/predict_last_obs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amit_drafts/predict_naive_based_on_last_year.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/predict_naive_based_on_last_year.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vighnesh_drafts/sarimax/SARIMAX401.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/vighnesh_drafts/sarimax/SARIMAX401.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +44,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/amit_cleaning_company_changes_date-checkpoint.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/hts.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -94,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +126,19 @@
               <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
               <item name="amit_drafts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
+              <item name="amit_drafts" type="462c0819:PsiDirectoryNode" />
+              <item name="mlruns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
+              <item name="amit_drafts" type="462c0819:PsiDirectoryNode" />
+              <item name="mlruns" type="462c0819:PsiDirectoryNode" />
+              <item name="0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
@@ -135,7 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,20 +247,20 @@
   <component name="ToolWindowManager">
     <frame x="112" y="32" width="1688" height="868" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.23693803" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.24240583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5019531" side_tool="true" weight="0.26058394" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49696234" visible="true" weight="0.4226804" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6986634" weight="0.4226804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6825525" weight="0.35338345" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030377" side_tool="true" visible="true" weight="0.4226804" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4981774" weight="0.32860824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.6780073" visible="true" weight="0.3530928" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3219927" side_tool="true" visible="true" weight="0.3530928" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4981774" weight="0.32860824" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,13 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/DSSGx_ARIMA1/2_k_means_categorical/ARIMA2_categorical.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/DSSGx_ARIMA1/1_simple/Arima1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -290,6 +311,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/amit_cleaning_company_changes_date-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/DSSGx_ARIMA1/2_k_means_categorical/ARIMA2_categorical.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/hts.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
