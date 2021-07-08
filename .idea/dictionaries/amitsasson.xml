@@ -348,6 +348,15 @@
       <w>.__C__ltrMatrix</w>
       <w>.__C__maov</w>
       <w>.__C__matrix</w>
+      <w>.__C__matrix.coo</w>
+      <w>.__C__matrix.csc</w>
+      <w>.__C__matrix.csc.hb</w>
+      <w>.__C__matrix.csr</w>
+      <w>.__C__matrix.csr.chol</w>
+      <w>.__C__matrix.diag.csr</w>
+      <w>.__C__matrix.ssc</w>
+      <w>.__C__matrix.ssc.hb</w>
+      <w>.__C__matrix.ssr</w>
       <w>.__C__merModLmerTest</w>
       <w>.__C__missing</w>
       <w>.__C__mle</w>
@@ -355,6 +364,7 @@
       <w>.__C__mob</w>
       <w>.__C__model</w>
       <w>.__C__modelMatrix</w>
+      <w>.__C__mslm</w>
       <w>.__C__mtable</w>
       <w>.__C__mts</w>
       <w>.__C__nCHMsimpl</w>
@@ -427,6 +437,7 @@
       <w>.__C__sPredModule</w>
       <w>.__C__sRGB</w>
       <w>.__C__signature</w>
+      <w>.__C__slm</w>
       <w>.__C__smoothbin</w>
       <w>.__C__socket</w>
       <w>.__C__sourceEnvironment</w>
@@ -446,6 +457,7 @@
       <w>.__C__structure</w>
       <w>.__C__summary.glimML</w>
       <w>.__C__summary.mle</w>
+      <w>.__C__summary.slm</w>
       <w>.__C__summary.table</w>
       <w>.__C__summaryDefault</w>
       <w>.__C__sumurca</w>
@@ -1620,6 +1632,7 @@
       <w>Milgram</w>
       <w>Milk</w>
       <w>Min</w>
+      <w>MinT</w>
       <w>MinimalReporter</w>
       <w>Minsk</w>
       <w>Miquelon</w>
@@ -1732,6 +1745,8 @@
       <w>Ops.data.frame</w>
       <w>Ops.difftime</w>
       <w>Ops.factor</w>
+      <w>Ops.matrix.csr</w>
+      <w>Ops.matrix.diag.csr</w>
       <w>Ops.numeric_version</w>
       <w>Ops.ordered</w>
       <w>Oral</w>
@@ -2170,6 +2185,7 @@
       <w>South_Pole</w>
       <w>Soybean</w>
       <w>Sparrows</w>
+      <w>SparseM</w>
       <w>Spatial</w>
       <w>SpatialGrid</w>
       <w>SpatialGridDataFrame</w>
@@ -2681,6 +2697,11 @@
       <w>`.__T__as.interval:lubridate`</w>
       <w>`.__T__as.kernelMatrix:kernlab`</w>
       <w>`.__T__as.logical:base`</w>
+      <w>`.__T__as.matrix.coo:SparseM`</w>
+      <w>`.__T__as.matrix.csc:SparseM`</w>
+      <w>`.__T__as.matrix.csr:SparseM`</w>
+      <w>`.__T__as.matrix.ssc:SparseM`</w>
+      <w>`.__T__as.matrix.ssr:SparseM`</w>
       <w>`.__T__as.matrix:base`</w>
       <w>`.__T__as.numeric:base`</w>
       <w>`.__T__as.period:lubridate`</w>
@@ -2690,6 +2711,7 @@
       <w>`.__T__as_datetime:lubridate`</w>
       <w>`.__T__atoms:timeDate`</w>
       <w>`.__T__b:kernlab`</w>
+      <w>`.__T__backsolve:SparseM`</w>
       <w>`.__T__band:Matrix`</w>
       <w>`.__T__bbox:sp`</w>
       <w>`.__T__body&lt;-:base`</w>
@@ -2808,6 +2830,7 @@
       <w>`.__T__formals&lt;-:base`</w>
       <w>`.__T__format:base`</w>
       <w>`.__T__formula:stats`</w>
+      <w>`.__T__forwardsolve:base`</w>
       <w>`.__T__frequency:stats`</w>
       <w>`.__T__fullgrid:sp`</w>
       <w>`.__T__fullgrid&lt;-:sp`</w>
@@ -2899,6 +2922,10 @@
       <w>`.__T__minute&lt;-:lubridate`</w>
       <w>`.__T__mlike:kernlab`</w>
       <w>`.__T__mmdstats:kernlab`</w>
+      <w>`.__T__model.guess:SparseM`</w>
+      <w>`.__T__model.matrix:stats`</w>
+      <w>`.__T__model.response:stats`</w>
+      <w>`.__T__model.xexact:SparseM`</w>
       <w>`.__T__month&lt;-:lubridate`</w>
       <w>`.__T__months:base`</w>
       <w>`.__T__nSV:kernlab`</w>
@@ -3090,6 +3117,9 @@
       <w>`[.factor`</w>
       <w>`[.hexmode`</w>
       <w>`[.listof`</w>
+      <w>`[.matrix.coo`</w>
+      <w>`[.matrix.csr`</w>
+      <w>`[.matrix.diag.csr`</w>
       <w>`[.noquote`</w>
       <w>`[.numeric_version`</w>
       <w>`[.octmode`</w>
@@ -3102,6 +3132,8 @@
       <w>`[&lt;-.data.frame`</w>
       <w>`[&lt;-.discrete`</w>
       <w>`[&lt;-.factor`</w>
+      <w>`[&lt;-.matrix.coo`</w>
+      <w>`[&lt;-.matrix.csr`</w>
       <w>`[&lt;-.numeric_version`</w>
       <w>`[&lt;-`</w>
       <w>`[[.Date`</w>
@@ -3350,6 +3382,7 @@
       <w>accumulate</w>
       <w>accumulate_right</w>
       <w>accuracy</w>
+      <w>accuracy.gts</w>
       <w>accuracy.meas</w>
       <w>accuracy_vec</w>
       <w>ace</w>
@@ -3554,6 +3587,7 @@
       <w>aggregate</w>
       <w>aggregate.data.frame</w>
       <w>aggregate.ts</w>
+      <w>aggts</w>
       <w>aging.ba.game</w>
       <w>aging.barabasi.game</w>
       <w>aging.prefatt.game</w>
@@ -3624,6 +3658,7 @@
       <w>allocVector</w>
       <w>allowInterrupts</w>
       <w>allow_lossy_cast</w>
+      <w>allts</w>
       <w>alpha</w>
       <w>alpha.centrality</w>
       <w>alpha_centrality</w>
@@ -3929,11 +3964,16 @@
       <w>as.math</w>
       <w>as.matrix</w>
       <w>as.matrix.POSIXlt</w>
+      <w>as.matrix.coo</w>
+      <w>as.matrix.csc</w>
+      <w>as.matrix.csr</w>
       <w>as.matrix.data.frame</w>
       <w>as.matrix.default</w>
       <w>as.matrix.noquote</w>
       <w>as.matrix.repeated</w>
       <w>as.matrix.response</w>
+      <w>as.matrix.ssc</w>
+      <w>as.matrix.ssr</w>
       <w>as.matrix.tccov</w>
       <w>as.matrix.tvcov</w>
       <w>as.name</w>
@@ -4747,6 +4787,7 @@
       <w>cbind</w>
       <w>cbind.Spatial</w>
       <w>cbind.data.frame</w>
+      <w>cbind.matrix.csr</w>
       <w>cbind.xts</w>
       <w>cbind.zoo</w>
       <w>cbind2</w>
@@ -5161,6 +5202,7 @@
       <w>coef.gnlm</w>
       <w>coef.hclust</w>
       <w>coef.relaxed</w>
+      <w>coef.slm</w>
       <w>coefFrame</w>
       <w>coefHier</w>
       <w>coef_rename</w>
@@ -5320,6 +5362,7 @@
       <w>combine_styles</w>
       <w>combine_vars</w>
       <w>combine_words</w>
+      <w>combinef</w>
       <w>combn</w>
       <w>combplotp</w>
       <w>comma</w>
@@ -6235,6 +6278,7 @@
       <w>devcoords</w>
       <w>deviance</w>
       <w>deviance.gnlm</w>
+      <w>deviance.slm</w>
       <w>deviceDim</w>
       <w>deviceIsInteractive</w>
       <w>deviceLoc</w>
@@ -7041,6 +7085,7 @@
       <w>extract.lme.cov2</w>
       <w>extract2</w>
       <w>extractAIC</w>
+      <w>extractAIC.slm</w>
       <w>extractPath</w>
       <w>extractPreserveChunks</w>
       <w>extractStackTrace</w>
@@ -7333,6 +7378,7 @@
       <w>fit_xy.model_spec</w>
       <w>fitdistr</w>
       <w>fitted</w>
+      <w>fitted.slm</w>
       <w>fitted.values</w>
       <w>fittedModel</w>
       <w>fivenum</w>
@@ -7430,6 +7476,7 @@
       <w>foreach</w>
       <w>forecast</w>
       <w>forecast.ets</w>
+      <w>forecast.gts</w>
       <w>foreign</w>
       <w>forest.fire.game</w>
       <w>forestplot</w>
@@ -8137,6 +8184,7 @@
       <w>get_fit</w>
       <w>get_from_env</w>
       <w>get_gof</w>
+      <w>get_groups</w>
       <w>get_inits</w>
       <w>get_intercept</w>
       <w>get_levels</w>
@@ -8156,6 +8204,7 @@
       <w>get_n</w>
       <w>get_n_frac</w>
       <w>get_n_frac_range</w>
+      <w>get_nodes</w>
       <w>get_num_divergent</w>
       <w>get_num_leapfrog_per_iteration</w>
       <w>get_num_max_treedepth</w>
@@ -8743,6 +8792,7 @@
       <w>gtable_trim</w>
       <w>gtable_width</w>
       <w>gtools</w>
+      <w>gts</w>
       <w>guess_encoding</w>
       <w>guess_fo</w>
       <w>guess_formats</w>
@@ -9074,6 +9124,9 @@
       <w>htmloptions</w>
       <w>htmltools</w>
       <w>htmlwidgets</w>
+      <w>hts</w>
+      <w>htseg1</w>
+      <w>htseg2</w>
       <w>http_condition</w>
       <w>http_date</w>
       <w>http_error</w>
@@ -9253,6 +9306,7 @@
       <w>induced.subgraph</w>
       <w>induced_subgraph</w>
       <w>infIndexPlot</w>
+      <w>infantgts</w>
       <w>infer</w>
       <w>inferno</w>
       <w>infert</w>
@@ -9496,8 +9550,10 @@
       <w>is.grob</w>
       <w>is.grouped_df</w>
       <w>is.gtable</w>
+      <w>is.gts</w>
       <w>is.hierarchical</w>
       <w>is.hms</w>
+      <w>is.hts</w>
       <w>is.ident</w>
       <w>is.igraph</w>
       <w>is.imputed</w>
@@ -9522,6 +9578,11 @@
       <w>is.mChoice</w>
       <w>is.matching</w>
       <w>is.matrix</w>
+      <w>is.matrix.coo</w>
+      <w>is.matrix.csc</w>
+      <w>is.matrix.csr</w>
+      <w>is.matrix.ssc</w>
+      <w>is.matrix.ssr</w>
       <w>is.maximal.matching</w>
       <w>is.message</w>
       <w>is.mforecast</w>
@@ -10703,6 +10764,7 @@
       <w>lsfit</w>
       <w>lsmeansLT</w>
       <w>lsort</w>
+      <w>lsq</w>
       <w>lssvm</w>
       <w>lst</w>
       <w>lst_</w>
@@ -11325,6 +11387,7 @@
       <w>model.formulafn</w>
       <w>model.frame</w>
       <w>model.frame.default</w>
+      <w>model.guess</w>
       <w>model.matrix</w>
       <w>model.matrix.default</w>
       <w>model.matrix.gam</w>
@@ -11334,6 +11397,7 @@
       <w>model.response</w>
       <w>model.tables</w>
       <w>model.weights</w>
+      <w>model.xexact</w>
       <w>model2remat</w>
       <w>modelAR</w>
       <w>modelData</w>
@@ -12668,6 +12732,7 @@
       <w>plot.errorevol</w>
       <w>plot.function</w>
       <w>plot.gam</w>
+      <w>plot.gts</w>
       <w>plot.igraph</w>
       <w>plot.iprofile</w>
       <w>plot.limdil</w>
@@ -13046,7 +13111,9 @@
       <w>print.gam</w>
       <w>print.glh.test</w>
       <w>print.gnlm</w>
+      <w>print.gts</w>
       <w>print.hexmode</w>
+      <w>print.hts</w>
       <w>print.igraph</w>
       <w>print.libraryIQR</w>
       <w>print.limdil</w>
@@ -13062,10 +13129,12 @@
       <w>print.rle</w>
       <w>print.shapehead</w>
       <w>print.simple.list</w>
+      <w>print.slm</w>
       <w>print.srcfile</w>
       <w>print.srcref</w>
       <w>print.starship</w>
       <w>print.summary.gam</w>
+      <w>print.summary.slm</w>
       <w>print.summary.table</w>
       <w>print.summary.warnings</w>
       <w>print.summaryDefault</w>
@@ -13591,6 +13660,7 @@
       <w>rbind.data.frame</w>
       <w>rbind.fill</w>
       <w>rbind.fill.matrix</w>
+      <w>rbind.matrix.csr</w>
       <w>rbind.xts</w>
       <w>rbind.zoo</w>
       <w>rbind2</w>
@@ -13682,6 +13752,7 @@
       <w>read.list</w>
       <w>read.matrix</w>
       <w>read.matrix.csr</w>
+      <w>read.matrix.hb</w>
       <w>read.mtp</w>
       <w>read.octave</w>
       <w>read.rep</w>
@@ -14064,6 +14135,7 @@
       <w>residuals.glm</w>
       <w>residuals.lm</w>
       <w>residuals.msme</w>
+      <w>residuals.slm</w>
       <w>resize</w>
       <w>resizePanels</w>
       <w>resolution</w>
@@ -15313,6 +15385,10 @@
       <w>slice_</w>
       <w>sliderInput</w>
       <w>slidy_presentation</w>
+      <w>slm</w>
+      <w>slm.fit</w>
+      <w>slm.fit.csr</w>
+      <w>slm.wfit</w>
       <w>slot</w>
       <w>slotNames</w>
       <w>slotsFromS3</w>
@@ -15324,6 +15400,7 @@
       <w>smape_vec</w>
       <w>smartbind</w>
       <w>smartypants</w>
+      <w>smatrix</w>
       <w>smean.cl.boot</w>
       <w>smean.cl.normal</w>
       <w>smean.sd</w>
@@ -16253,13 +16330,17 @@
       <w>summary.gam</w>
       <w>summary.glh.test</w>
       <w>summary.glm</w>
+      <w>summary.gts</w>
+      <w>summary.hts</w>
       <w>summary.lm</w>
       <w>summary.manova</w>
       <w>summary.matrix</w>
       <w>summary.ml_g_fit</w>
+      <w>summary.mslm</w>
       <w>summary.msme</w>
       <w>summary.proc_time</w>
       <w>summary.sim</w>
+      <w>summary.slm</w>
       <w>summary.srcfile</w>
       <w>summary.srcref</w>
       <w>summary.starship</w>
