@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amitsasson/PycharmProjects/DSSGx/amit_drafts/mlruns/0/db3f99ef2c6d44d6963fded97fc43c99/artifacts
+end_time: 1625523746426
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: db3f99ef2c6d44d6963fded97fc43c99
+run_uuid: db3f99ef2c6d44d6963fded97fc43c99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1625522988825
+status: 3
+tags: []
+user_id: amitsasson

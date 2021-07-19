@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amitsasson/PycharmProjects/DSSGx/amit_drafts/unemployment_rate_covid_times/mlruns/0/a5f794970fb44af2b800e48684d008a4/artifacts
+end_time: 1626436228426
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a5f794970fb44af2b800e48684d008a4
+run_uuid: a5f794970fb44af2b800e48684d008a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1626435431121
+status: 3
+tags: []
+user_id: amitsasson

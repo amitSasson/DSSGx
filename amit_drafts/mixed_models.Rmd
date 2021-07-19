@@ -11,11 +11,13 @@ library(modelsummary)
 
 ## No time element 
 ```{r}
-df <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/final_dfs/df_final_with_clusters.csv")
+df <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/Prakhar_drafts/data_from_2010_to_2019_unemployment_rate.csv")
 head(df)
 df$ags2 <- factor(df$ags2)
 df$ags5 <- factor(df$ags5)
 df$cluster <- factor(df$cluster)
+
+
 ```
 
 #### without clutster/kreis
@@ -38,11 +40,43 @@ get_gof(fit2)
 
 #### creating the dataset needed 
 ```{r}
-df <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/final_dfs/df_final_without_labor_with_clusters.csv")
-df %>% select(cluster) %>% table()
+df2 <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/final_dfs/for_modeling/df_final_date_wide_2007.csv")
+df <- df2 %>% select(ags5, unemployment_rate, date, number_of_start_ups)
 df <- df %>% select(-data_index)
 labor <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/final_dfs/labor_market_by_date.csv")
 tmp <- read.csv("/Users/amitsasson/PycharmProjects/DSSGx/corona_data_sets/arbeitsmarktentwicklung.csv") %>% select(bundesland, ags5)
+
+df <- df %>% mutate(the_date = as.Date(date))
+tmp <- tmp %>% select(ags5, bundesland)
+df <- df %>% left_join(tmp, by = "ags5")
+df$bundesland <- factor(df$bundesland)
+
+ggplot(df, aes(x = the_date, y = number_of_start_ups, group = ags5, color = bundesland)) + 
+  geom_line() + 
+    labs(x = "Date", y = "Unemployment rate", color = "Bundesland", title = "Unemployment rate by date for each Kreis") + 
+  geom_vline(xintercept =as.numeric(as.Date("2009-12-01")), linetype="dashed", 
+                color = "black", size=0.8) + 
+   geom_vline(xintercept =as.numeric(as.Date("2019-12-01")), linetype="dashed", 
+                color = "black", size=0.8) 
+
+
+ggplot(df, aes(x = the_date, y = unemployment_rate, group = ags5, color = bundesland)) + 
+  geom_line() + 
+    labs(x = "Date", y = "Unemployment rate", color = "Bundesland", title = "Unemployment rate by date for each Kreis") + 
+  geom_vline(xintercept =as.numeric(as.Date("2009-12-01")), linetype="dashed", 
+                color = "black", size=0.8) + 
+   geom_vline(xintercept =as.numeric(as.Date("2019-12-01")), linetype="dashed", 
+                color = "black", size=0.8) 
+
+
+df %>% group_by(the_date, bundesland) %>% summarise(unemployment_rate=mean(unemployment_rate)) %>% 
+ggplot(aes(x = the_date, y = unemployment_rate, group = bundesland, color = bundesland)) + 
+  geom_line() + 
+    labs(x = "Date", y = "Unemployment rate", color = "Bundesland", title = "Unemployment rate by date for each Bundesland") + 
+  geom_vline(xintercept =as.numeric(as.Date("2009-12-01")), linetype="dashed", 
+                color = "black", size=0.8) + 
+   geom_vline(xintercept =as.numeric(as.Date("2019-12-01")), linetype="dashed", 
+                color = "black", size=0.8) 
 
 
 df <- df %>% 
@@ -107,6 +141,11 @@ fit5 <- lmer(unemployment_rate ~ . + (1 | ags2) + (1 | ags5), df)
 
 #### TIme series 
 ```{r}
+where_i_am <- function(location)
+{
+  if(car == "right") {return("uk")}
+  return("south africa")
+}
 ```
 
 

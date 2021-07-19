@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/amitsasson/PycharmProjects/DSSGx/amit_drafts/SARIMAX/mlruns/0/fce757c9c0b0487c9219ffd436967c6d/artifacts
+end_time: 1625767859338
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: fce757c9c0b0487c9219ffd436967c6d
+run_uuid: fce757c9c0b0487c9219ffd436967c6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1625767858024
+status: 4
+tags: []
+user_id: amitsasson

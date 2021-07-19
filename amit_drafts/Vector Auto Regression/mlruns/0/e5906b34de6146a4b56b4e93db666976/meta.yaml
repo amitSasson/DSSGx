@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/e5906b34de6146a4b56b4e93db666976/artifacts
+end_time: 1625742089937
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: e5906b34de6146a4b56b4e93db666976
+run_uuid: e5906b34de6146a4b56b4e93db666976
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1625742087738
+status: 3
+tags: []
+user_id: amitsasson
