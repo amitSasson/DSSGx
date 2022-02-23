@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cb5bfb5-6f03-4c08-a920-a89658f3feea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/amitsasson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/amitsasson.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prakhar_drafts/t-SNE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Prakhar_drafts/t-SNE.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_drafts/PCA_and_Kmeans_on_the_modified_final_df.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/PCA_and_Kmeans_on_the_modified_final_df.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_drafts/causal_inference/ATE_using_IPTW.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/causal_inference/ATE_using_IPTW.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_drafts/causal_inference/counterfactual.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/causal_inference/counterfactual.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_drafts/gdp_normal_times/GDP_and_UR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/gdp_normal_times/GDP_and_UR.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_drafts/unemployment_rate_normal_times/EDA_MAPE_2018_2019_VAR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/unemployment_rate_normal_times/EDA_MAPE_2018_2019_VAR.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_drafts/unemployment_rate_normal_times/EDA_MAPE_2018_2019_VAR_Bayren.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/unemployment_rate_normal_times/EDA_MAPE_2018_2019_VAR_Bayren.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amit_drafts/unemployment_rate_normal_times/sample_ur_VAR_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/amit_drafts/unemployment_rate_normal_times/sample_ur_VAR_normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/causal_inference/counterfactual.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/causal_inference/counterfactual.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_map.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/clusters/cluster_map.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corona_data_sets/oeffentliche_finanzen.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/final_dfs/for_modeling/df_final_date_wide_2007.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling/PCA_and_Kmeans_on_the_modified_final_df.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/PCA_and_Kmeans_on_the_modified_final_df.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling/cleaning_data_sets/cleaning_unemployment_rate.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/cleaning_data_sets/cleaning_unemployment_rate.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling/unemployment_rate_covid_times/EDA_erros/EDA_errors_2018_2019_nn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/unemployment_rate_covid_times/EDA_erros/EDA_errors_2018_2019_nn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling/unemployment_rate_covid_times/Prophet/Prophet_no_walk_forward.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/unemployment_rate_covid_times/Prophet/Prophet_no_walk_forward.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modeling/unemployment_rate_normal_times/EDA_errors/EDA_errors_2018_2019_VAR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/modeling/unemployment_rate_normal_times/EDA_errors/EDA_errors_2018_2019_VAR.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,15 +31,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/pipelines.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/GitHub/DSSGx_ARIMA1/1_simple/Arima1.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -46,20 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/amit_cleaning_company_changes_date-checkpoint.ipynb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/PCA_and_Kmeans_on_the_modified_final_df-checkpoint.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="2" />
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/causal_inference/counterfactual.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/hts.ipynb">
+        <entry file="file://$PROJECT_DIR$/clusters/cluster_map.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="0" />
+              <selected id="4" />
             </state>
           </provider>
         </entry>
@@ -97,14 +99,14 @@
         <option value="$USER_HOME$/Downloads/pipelines.ipynb" />
         <option value="$PROJECT_DIR$/.ipynb_checkpoints/amit_cleaning_company_changes_date-checkpoint.ipynb" />
         <option value="$USER_HOME$/the-tool-bmwi/documentation/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/causal_inference/counterfactual.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="113" />
-    <option name="y" value="229" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
     <option name="width" value="1920" />
-    <option name="height" value="972" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,45 +125,7 @@
             <path>
               <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name="amit_drafts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name="amit_drafts" type="462c0819:PsiDirectoryNode" />
-              <item name="mlruns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name="amit_drafts" type="462c0819:PsiDirectoryNode" />
-              <item name="mlruns" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name="cinny_drafts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name="corona_data_sets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name="corona_data_sets_modified" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSSGx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSSGx" type="462c0819:PsiDirectoryNode" />
-              <item name="final_dfs" type="462c0819:PsiDirectoryNode" />
+              <item name="causal_inference" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,6 +134,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -247,23 +212,32 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="229" width="1920" height="972" extended-state="0" />
+    <frame x="0" y="25" width="1920" height="783" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.2571885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.2944622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5019531" side_tool="true" weight="0.26058394" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.69648564" weight="0.4215909" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6938232" weight="0.42062572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4981774" weight="0.32860824" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6761847" weight="0.3530928" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3035144" side_tool="true" visible="true" weight="0.4215909" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4981774" weight="0.32860824" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.32908458" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49733758" weight="0.32792583" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.6682641" visible="true" weight="0.4452555" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33173588" side_tool="true" visible="true" weight="0.4452555" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49307775" weight="0.32792583" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,37 +249,28 @@
     <entry file="file://$PROJECT_DIR$/data_explore.py" />
     <entry file="file://$USER_HOME$/Library/Jupyter/runtime/nbserver-65588-open.html" />
     <entry file="file://$PROJECT_DIR$/EDA.py" />
-    <entry file="file://$USER_HOME$/Downloads/Exploratory Data Analysis - Infrastructure Data.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/code.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Exploratory Data Analysis - Infrastructure Data.ipynb" />
+    <entry file="file://$USER_HOME$/Downloads/code.py" />
     <entry file="file://$PROJECT_DIR$/EDA_amit.ipynb" />
-    <entry file="file://$USER_HOME$/Downloads/EDA_amit.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/EDA_amit.ipynb" />
     <entry file="file://$PROJECT_DIR$/EDA_amit_corona.ipynb" />
     <entry file="file://$PROJECT_DIR$/Data_Cleaning_before_PCA.ipynb" />
     <entry file="file://$USER_HOME$/Downloads/train_and_log.ipynb" />
     <entry file="file://$USER_HOME$/Library/Jupyter/runtime/nbserver-916-open.html" />
-    <entry file="file://$USER_HOME$/Library/Jupyter/runtime/nbserver-381-open.html">
+    <entry file="file://$USER_HOME$/the-tool-bmwi/documentation/mkdocs.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/pipelines.ipynb">
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/amit_cleaning_company_changes_date-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/pipelines.ipynb" />
+    <entry file="file://$USER_HOME$/Downloads/hts.ipynb" />
+    <entry file="file://$USER_HOME$/Library/Jupyter/runtime/nbserver-381-open.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/DSSGx_ARIMA1/1_simple/Arima1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
@@ -314,10 +279,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/hts.ipynb">
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/PCA_and_Kmeans_on_the_modified_final_df-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusters/cluster_map.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
         </state>
       </provider>
     </entry>
@@ -328,13 +300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/the-tool-bmwi/documentation/mkdocs.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/amit_cleaning_company_changes_date-checkpoint.ipynb">
+    <entry file="file://$PROJECT_DIR$/causal_inference/counterfactual.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="2" />
+          <selected id="33" />
         </state>
       </provider>
     </entry>
