@@ -1,0 +1,50 @@
+---
+title: "Hieraechical_time_series"
+output: pdf_document
+---
+
+```{r}
+library(tidyverse)
+library(modelsummary)
+library(hts)
+```
+
+## No time element 
+```{r}
+df <- read_csv("/Users/amitsasson/PycharmProjects/DSSGx/final_dfs/for_modeling/df_final_date_wide.csv")
+head(df)
+df$ags2 <- factor(df$ags2)
+df$ags5 <- factor(df$ags5)
+```
+
+```{r}
+dfw <- df %>% 
+        select(ags5, date, unemployment_rate) %>%
+        pivot_wider(id_cols = date, names_from = ags5, values_from = unemployment_rate) %>% 
+        select(-date)
+dfw <-  ts(dfw, start = c(2019,1), frequency = 12)
+dfw
+```
+
+```{r}
+df_hts <- hts(dfw, characters = c(2, 3))
+ df_hts %>% aggts(levels=0:1) %>%
+  autoplot(facet=TRUE)
+```
+
+```{r}
+train <- window(dfw, start=2019, end=c(2021,1))
+test <- window(dfw, start=c(2021,2), end=c(2021,4))
+
+train_hts <- hts(train, characters = c(2, 3))
+test_hts <- hts(test, characters = c(2, 3))
+
+forcast_fit <- forecast(train_hts, method="bu", fmethod="arima")
+accuracy(forcast_fit, test_hts)
+
+fit <- forecast(df_hts, method="tdfp", fmethod="arima")
+accuracy(fit)
+fit <- forecast(df_hts, method="mo", fmethod="arima")
+accuracy(fit)
+
+```
